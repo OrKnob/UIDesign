@@ -4,10 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
+
+import com.example.uidesign.Fragments.LoginFragment;
+import com.example.uidesign.Fragments.OtpFragment;
 
 public class MainActivity extends AppCompatActivity {
+
 
 
     @Override

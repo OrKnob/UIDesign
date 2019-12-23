@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignUpFragment"
+    tools:context=".Fragments.SignUpFragment"
     android:clickable="true"
     android:focusableInTouchMode="true"
     android:background="@color/little_grey"
@@ -32,21 +32,25 @@
         android:touchscreenBlocksFocus="true"
         app:boxBackgroundMode="outline"
         app:boxStrokeColor="@color/color_logo_log_in"
-        android:paddingLeft="6dp"
         app:boxCornerRadiusBottomEnd="8dp"
         app:boxCornerRadiusTopEnd="8dp"
         app:boxCornerRadiusTopStart="8dp"
         app:boxCornerRadiusBottomStart="8dp"
         android:textColorHint="@color/color_logo_log_in"
-        android:id="@+id/etSignUpName"
+        android:id="@+id/lSignUpName"
+
         >
         <com.google.android.material.textfield.TextInputEditText
+
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Enter Full Name"
+            android:layout_marginStart="6dp"
+            android:paddingEnd="20dp"
             android:textColorHint="@color/color_logo_log_in"
             android:textColor="@color/color_logo_log_in"
             android:textCursorDrawable="@drawable/cursor"
+            android:id="@+id/etSignUpName"
 
 
             />
@@ -60,13 +64,12 @@
         android:touchscreenBlocksFocus="true"
         app:boxBackgroundMode="outline"
         app:boxStrokeColor="@color/color_logo_log_in"
-        android:paddingLeft="6dp"
         app:boxCornerRadiusBottomEnd="8dp"
         app:boxCornerRadiusTopEnd="8dp"
         app:boxCornerRadiusTopStart="8dp"
         app:boxCornerRadiusBottomStart="8dp"
         android:textColorHint="@color/color_logo_log_in"
-        android:id="@+id/etSignUpEmail"
+        android:id="@+id/lSignUpEmail"
 
         >
         <com.google.android.material.textfield.TextInputEditText
@@ -74,6 +77,9 @@
             android:layout_height="match_parent"
             android:hint="Email"
             android:inputType="textEmailAddress"
+            android:id="@+id/etSignUpEmail"
+            android:layout_marginStart="6dp"
+            android:paddingEnd="20dp"
 
             />
 
@@ -87,19 +93,21 @@
         android:touchscreenBlocksFocus="true"
         app:boxBackgroundMode="outline"
         app:boxStrokeColor="@color/color_logo_log_in"
-        android:paddingLeft="6dp"
         app:boxCornerRadiusBottomEnd="8dp"
         app:boxCornerRadiusTopEnd="8dp"
         app:boxCornerRadiusTopStart="8dp"
         app:boxCornerRadiusBottomStart="8dp"
         android:textColorHint="@color/color_logo_log_in"
-        android:id="@+id/etSignUpPhoneNumber"
+        android:id="@+id/lSignUpPhoneNumber"
         >
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Mobile Number"
             android:inputType="phone"
+            android:id="@+id/etSignUpPhoneNumber"
+            android:layout_marginStart="6dp"
+            android:paddingEnd="20dp"
 
             />
     </com.google.android.material.textfield.TextInputLayout>
@@ -117,14 +125,16 @@
         app:boxCornerRadiusTopStart="8dp"
         app:boxCornerRadiusBottomStart="8dp"
         android:textColorHint="@color/color_logo_log_in"
-        android:paddingLeft="6dp"
-        android:id="@+id/etSignUpPassword"
+        android:id="@+id/lSignUpPassword"
         >
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:hint="Password"
             android:inputType="textPassword"
+            android:id="@+id/etSignUpPassword"
+            android:layout_marginStart="6dp"
+            android:paddingEnd="20dp"
 
             />
     </com.google.android.material.textfield.TextInputLayout>

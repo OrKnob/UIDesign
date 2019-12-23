@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.OtpFragment"
+    android:background="@color/little_grey">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="70dp"
+       android:text="Enter the OTP"
+       android:textSize="39dp"
+       android:layout_marginTop="90dp"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/tvHeading"
+
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/tvHeading"
+        android:orientation="horizontal"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:id="@+id/llOtp"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:boxBackgroundMode="outline"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="6dp"
+            app:boxCornerRadiusBottomStart="13dp"
+            app:boxCornerRadiusTopStart="13dp"
+            app:boxCornerRadiusTopEnd="13dp"
+            app:boxCornerRadiusBottomEnd="13dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:maxLength="1"
+                android:id="@+id/etOtp1"
+                android:nextFocusRight="@id/etOtp2"
+                android:inputType="number"
+                android:textSize="30dp"
+
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:boxBackgroundMode="outline"
+            android:layout_marginRight="6dp"
+            app:boxCornerRadiusBottomStart="13dp"
+            app:boxCornerRadiusTopStart="13dp"
+            app:boxCornerRadiusTopEnd="13dp"
+            app:boxCornerRadiusBottomEnd="13dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:maxLength="1"
+                android:id="@+id/etOtp2"
+                android:nextFocusRight="@id/etOtp3"
+                android:inputType="number"
+                android:textSize="30dp"
+
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:boxBackgroundMode="outline"
+            android:layout_marginRight="6dp"
+            app:boxCornerRadiusBottomStart="13dp"
+            app:boxCornerRadiusTopStart="13dp"
+            app:boxCornerRadiusTopEnd="13dp"
+            app:boxCornerRadiusBottomEnd="13dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:maxLength="1"
+                android:id="@+id/etOtp3"
+                android:nextFocusRight="@id/etOtp4"
+                android:inputType="number"
+                android:textSize="30dp"
+
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:boxBackgroundMode="outline"
+            android:layout_marginRight="6dp"
+            app:boxCornerRadiusBottomStart="13dp"
+            app:boxCornerRadiusTopStart="13dp"
+            app:boxCornerRadiusTopEnd="13dp"
+            app:boxCornerRadiusBottomEnd="13dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:maxLength="1"
+                android:id="@+id/etOtp4"
+                android:nextFocusRight="@id/etOtp5"
+                android:inputType="number"
+                android:textSize="30dp"
+
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:boxBackgroundMode="outline"
+            android:layout_marginRight="6dp"
+            app:boxCornerRadiusBottomStart="13dp"
+            app:boxCornerRadiusTopStart="13dp"
+            app:boxCornerRadiusTopEnd="13dp"
+            app:boxCornerRadiusBottomEnd="13dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:maxLength="1"
+                android:id="@+id/etOtp5"
+                android:nextFocusRight="@id/etOtp6"
+                android:inputType="number"
+                android:textSize="30dp"
+
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:boxBackgroundMode="outline"
+            app:boxCornerRadiusBottomStart="13dp"
+            app:boxCornerRadiusTopStart="13dp"
+            app:boxCornerRadiusTopEnd="13dp"
+            app:boxCornerRadiusBottomEnd="13dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:maxLength="1"
+                android:id="@+id/etOtp6"
+                android:inputType="number"
+                android:textSize="30dp"
+
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:text="Verify"
+        android:textAllCaps="false"
+        android:layout_below="@+id/llOtp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="39dp"
+        android:textColor="@color/dark_grey"
+        android:background="@drawable/button"
+        android:id="@+id/btnVerify"
+        />
+</RelativeLayout>
